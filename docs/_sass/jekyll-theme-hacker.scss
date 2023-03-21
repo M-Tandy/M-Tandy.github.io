@@ -151,9 +151,9 @@ dt {
   font-weight: bold;
 }
 
-ul li {
-  list-style-image:url('../images/bullet.png');
-}
+// ul li {
+//   list-style-image:url('../images/bullet.png');
+// }
 
 blockquote {
   color: $blockquote-color;
@@ -162,7 +162,8 @@ blockquote {
 }
 
 pre {
-  background: rgba(0, 0, 0, 0.9);
+  // background: rgba(0, 0, 0, 0.9);
+  background: $snippetcolor;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 16px;
