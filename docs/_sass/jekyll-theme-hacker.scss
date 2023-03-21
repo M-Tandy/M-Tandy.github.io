@@ -172,6 +172,15 @@ pre {
   word-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
+  position:relative;
+}
+
+pre button{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  /* more stuff */
 }
 
 code.highlighter-rouge {
