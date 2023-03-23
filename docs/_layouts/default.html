@@ -22,7 +22,7 @@
         <nav class="headlinks">
           <ul>
             {% for item in site.data.mainlinks.docs %}
-              <a href="{{ item.url }}"><h1>{{ item.title }}</h1></a>
+              <a href="{{ item.url | relative_url }}"><h1>{{ item.title }}</h1></a>
             {% endfor %}
           </ul>
         </nav>
@@ -48,7 +48,7 @@
 
   <footer>
     <div class="container" id="footer_container">
-      <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+      <a href="{{ site.github.repository_url }}">Website source on GitHub</a>
     </div>
   </footer>
   <script src="js/prebutton.js"></script>
