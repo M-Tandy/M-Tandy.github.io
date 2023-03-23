@@ -1,0 +1,11 @@
+docs_list_title: Main Navigation 
+docs:
+
+- title: Home
+  url: index.html
+
+- title: About 
+  url: about.html
+
+- title: Etc.
+  url: 404.html

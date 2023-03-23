@@ -57,25 +57,29 @@ header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   border-bottom: 1px solid $testgray; //header;
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 0 0 40px 0;
 }
 
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  // margin: 0 0 0 -40px;
-  font-weight: bold;
   font-family: sans-serif, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $comfygray;//$header;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
-  // letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
   @include media-max-width($container-max-width) {
     margin-left: 0;
   }
+}
+
+.title h1 {
+  // margin: 0 0 0 -40px;
+  font-weight: bold;
+  // letter-spacing: -1px;
+  display: inline;
 }
 
 
@@ -88,6 +92,50 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+}
+
+.title {
+  display: inline;
+}
+
+.headlinks {
+  display: inline;
+  text-decoration: none;
+}
+
+.headlinks a {
+  // margin: 0 0 0 -40px;
+  -webkit-font-smoothing: antialiased;
+  @include media-max-width($container-max-width) {
+    margin-left: 0;
+  }
+  padding-right: 10px;
+}
+
+.headlinks a:link {
+  text-decoration: none;
+}
+
+.headlinks a:hover h1 {
+  color: $darkcomfygray !important;
+}
+
+.headlinks ul {
+  display: inherit;
+  padding-left: 40px;
+  list-style-type:none;
+}
+
+.headlinks h1 {
+  font-size: 20px;
+  font-weight: normal;
+  display: inline;
+}
+
+footer {
+  border-top: 1px solid $testgray; 
+  margin: 0 0 40px 0;
+  padding-top: 20px;
 }
 
 #downloads .btn {
@@ -256,8 +304,13 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: #5458E8;
+  text-decoration: none;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+a:hover {
+  color: #7579f1;
 }
 
 /* Clearfix */
