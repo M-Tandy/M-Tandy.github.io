@@ -8,7 +8,7 @@ I am a outgoing PhD researcher of mathematics, from which I have developed  stro
 ## **NTNU, Trondheim** - PhD Candidate, <font size='2'>(August 2019 - Present)</font>
 Mathematics PhD Researcher in the field of partial differential equations.
 ### Key details:
-- Generated three research articles. One published, and another two in the submission in process.
+- Generated three research articles. One published, and another two in the submission process.
 - Teaching duties included the running of exercises classes for undergraduate students, administration of teaching assistants, and generation of course materials. Also ran and lectured a short course for incoming masters students.
 - Attended and presented research in international conferences, e.g. at HYP2022.
 
