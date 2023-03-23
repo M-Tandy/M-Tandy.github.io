@@ -1,12 +1,15 @@
 @import "rouge-base16-dark";
 @import "default_colors";
 
-$body-background: $testgray !default;
+$body-background: $dark_primary !default;
 $body-foreground: $comfygray !default;
-$header: $gallery !default;
+// $body-foreground: $comfygray !default;
+$header: $dark-secondary !default;
 $blockquote-color: $test4 !default;
 $blockquote-border: $test4 !default;
 $container-max-width: 1000px;
+$link-primary: $dark_complement;
+$link-hover: $dark_complement_2;
 
 @mixin media-max-width($max-width) {
   @media (max-width: $max-width) {
@@ -17,7 +20,7 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background: $darkpurple;
+  background: $body-background;
   color: $body-foreground;
   font-size: 18px;
   line-height: 30px;
@@ -54,7 +57,7 @@ li {
 */
 
 header {
-  background: $headercolour;
+  background: $header;
   width: 100%;
   padding: 10px 0;
   margin: 0 0 20px 0;
@@ -64,7 +67,7 @@ header h1 {
   font-size: 30px;
   line-height: 1.5;
   font-family: sans-serif, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $comfygray;//$header;
+  color: $comfygray;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -90,7 +93,7 @@ header h1 {
 header h2 {
   font-size: 18px;
   font-weight: 300;
-  color: #666;
+  color: $dark-tertiary;
   margin-bottom: 10px;
 }
 
@@ -162,7 +165,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: sans-serif, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $header;
+  color: $body-foreground;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -308,13 +311,13 @@ hr {
 */
 
 a {
-  color: #5458E8;
+  color: $link-primary;
   text-decoration: none;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  // text-shadow: 0 0 5px $link-hover;
 }
 
 a:hover {
-  color: #7579f1;
+  color: $link-hover;
 }
 
 /* Clearfix */
