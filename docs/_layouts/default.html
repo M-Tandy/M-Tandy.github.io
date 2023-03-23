@@ -22,7 +22,7 @@
         <nav class="headlinks">
           <ul>
             {% for item in site.data.mainlinks.docs %}
-              <a href="{{ item.url }}"><h1>{{ item.title }}</h1></a>
+              <a href="{{ item.url | relative_url }}"><h1>{{ item.title }}</h1></a>
             {% endfor %}
           </ul>
         </nav>
