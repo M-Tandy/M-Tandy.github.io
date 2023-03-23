@@ -56,9 +56,8 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px solid $testgray; //header;
   padding: 10px 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
 }
 
 header h1 {
@@ -92,6 +91,7 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+  margin-bottom: 10px;
 }
 
 .title {
@@ -133,9 +133,13 @@ header h2 {
 }
 
 footer {
-  border-top: 1px solid $testgray; 
   margin: 0 0 40px 0;
   padding-top: 20px;
+}
+
+#footer_container {
+  padding-top: 10px;
+  border-top: 1px solid $testgray; 
 }
 
 #downloads .btn {
