@@ -4,8 +4,8 @@ docs:
 - title: Home
   url: index.html
 
-- title: Posts 
-  url: posts.html
+- title: Posts
+  url: post.html
 
 - title: CV
   url: CV.html
