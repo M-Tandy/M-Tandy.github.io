@@ -13,3 +13,43 @@ def tesfn(x):
 
 testfn(2)
 ```
+
+Here is an image
+<img style="float: right;" src="media/NLQDiagram.png">
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
+This text should be to the side of the image.
