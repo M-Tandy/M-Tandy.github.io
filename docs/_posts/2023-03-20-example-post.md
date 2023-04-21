@@ -4,9 +4,12 @@ title: "test post"
 date: 2023-03-20 11:18:30 +0100
 categories: parentcat childcat
 author: "M Tandy"
+tags: none
 ---
-# A title
-Some post contents
+Some post contents.
+
+This is the end of the excerpt.
+<!--EndExcerpt-->
 
 To list posts, use:
 

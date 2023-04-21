@@ -1,5 +1,6 @@
 @import "rouge-base16-dark";
 @import "default_colors";
+@import "callouts";
 
 $body-background: $dark_primary !default;
 $body-foreground: $comfygray !default;
@@ -232,10 +233,24 @@ pre {
 
 pre button{
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 6px;
+  right: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  fill: none;
+  background-color: $snippetcolor;
+  color: inherit;
+}
 
-  /* more stuff */
+pre button:hover {
+  background-color: $dark-secondary;
+}
+
+pre button img {
+  fill: none;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  width: 20px;
 }
 
 code.highlighter-rouge {
