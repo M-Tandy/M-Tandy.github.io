@@ -1,0 +1,23 @@
+$callout-opacity: 0.1;
+$callout-default-background: rgba(108,153,187,$callout-opacity);
+$callout-default-border: rgba(108,153,187, 0.5);
+$callout-default-title: rgb(108,153,187);
+
+
+.callout {
+	overflow: hidden;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $callout-default-border;
+	border-radius: 4px;
+	background-color: $callout-default-background;	
+	margin: 1em 0;
+	padding: 10px;
+}
+
+.callout-title {
+	display: flex;
+	gap: 4px;
+	font-size: 20px;
+	color: $callout-default-title;
+}
