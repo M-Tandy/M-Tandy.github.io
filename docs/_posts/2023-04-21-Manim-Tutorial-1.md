@@ -41,9 +41,8 @@ the way.
 *Don't worry, I won't talk about what the animation is actually
 showing.*
 
-
 {% include callouts/note.html title="Note"
-	content="At the time of writing, the Github page of Manim say's that it
+	content="At the time of writing, the Github pages of Manim say that it
 	is going through a major rewrite, so it is entirely possible that
 	this guide is no longer relevant when you read this. 
 	So note that the version ```0.17.3``` of Manim being used"
@@ -54,7 +53,7 @@ hopefully a digestible way.
 ### Final Output 
 At the end of this article, we will code the following
 <details>
-
+<summary><bf>Reveal Code</bf></summary>
 {% highlight python %}
 import manim as mn
 
@@ -81,6 +80,7 @@ class FunctionPlot2(mn.Scene):
 
  {% include video.html name="FunctionPlot2%201.mp4" %}
 </details>
+
 ---
 ## Installation
 Here, I'm going to refer you to the 
@@ -102,10 +102,13 @@ You can then install Manim via pip,
 pip3 install manim
 ```
 
->[!warning]
->The normal recommendation of installing this in a python
->environment, though whichever manager you prefer, still applies.
->I installed in an conda environment, and things worked out fine.
+{% include callouts/warning.html title="Warning"
+	content="
+  The normal recommendation of installing this in a python
+  environment, though whichever manager you prefer, still applies.
+  I installed in a conda environment, and things worked out fine.
+  "
+%}
 
 ---
 ## Setting up your workspace
@@ -282,16 +285,18 @@ manim -p -ql YOUR_PYTHON_FILE.py FunctionPlot
 we get
 {% include video.html name="FunctionPlot2%201.mp4" %}
 
->[!note]
->Here we transform our ```f_graph``` to transform to look like
->```g_graph```. A mistake is then to think you need to include
->the animation to transform ```g_graph``` to ```h_graph``` via
->```
->mn.Transform(g_graph, h_graph)
->```
->Try doing this instead. You will see that you end up with a line
->left on the screen. This is the original ```f_graph```.
->To put it simply, ```Transform``` changes how an object looks, and tells the video to interpolate between the two when played.
+{% include callouts/note.html title="Note"
+	content="
+    Here we transform our ```f_graph``` to transform to look like
+    ```g_graph```. A mistake is then to think you need to include
+    the animation to transform ```g_graph``` to ```h_graph```
+    via ```mn.Transform(g_graph, h_graph)```.
+
+    Try doing this instead. You will see that you end up with a line
+    left on the screen. This is the original ```f_graph```.
+    To put it simply, ```Transform``` changes how an object looks, and tells the video to interpolate between the two when played.
+  "
+%}
 
 ---
 # Bonus: A little fun to end
